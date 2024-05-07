@@ -10,13 +10,14 @@
 body{
   background: linear-gradient(to bottom right, #8A2BE2, #800080);
   background-repeat: no-repeat;
-  height:100vh;
+  
 }
 .main{
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 30px;
+  height: 100vh;
   /* background: linear-gradient(to bottom right, #8A2BE2, #800080); */
 }
 .app{
@@ -30,10 +31,9 @@ body{
 .app h1{
   margin-bottom: 50px;
 }
-.app ul{
 
-}
-.answer{
+
+.answer-color{
   width: 100%;
   text-align: left;
   margin-top: 15px;
@@ -42,7 +42,7 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
-.answer:hover{
+.answer-color:hover{
   background: linear-gradient(to top, #b66666, #b57f7f);
 }
 
@@ -52,7 +52,12 @@ body{
 }
 
 .correct{
-  background: green;
+  background: rgb(1, 75, 1);
+  color: white;
+}
+
+.incorrect{
+  background: red;
 }
 
 .question{
