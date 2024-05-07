@@ -1,0 +1,27 @@
+ [
+      {
+        "question": "Guess the correct height of mt. Makalu.",
+        "choices": ["8465m", "8485m", "6725m", "None of the above"],
+        "type": "MCQs",
+        "correctAnswer": "8485"
+      },
+      {
+        "question": "Which of the following animal has the longest lifespan",
+        "choices": ["Tiger", "Bear", "Goat", "Horse"],
+        "type": "MCQs",
+        "correctAnswer": "Horse"
+      },
+      {
+        "question": "How many development regions nepal used to have?",
+        "choices": ["4", "5", "6", "8"],
+        "type": "MCQs",
+        "correctAnswer": "5"
+      },
+      {
+        "question": "Which country is the part of asia?",
+        "choices": ["Croatia", "Haiti", "Egypt", "None of the above"],
+        "type": "MCQs",
+        "correctAnswer": "None of the above"
+      }
+    ]
+  
