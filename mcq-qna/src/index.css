@@ -33,14 +33,28 @@ body{
 .app ul{
 
 }
-.app ul li{
+.answer{
   width: 100%;
   text-align: left;
   margin-top: 15px;
   border: 2px solid black;
   padding: 10px;
   border-radius: 5px;
+  cursor: pointer;
 }
+.answer:hover{
+  background: linear-gradient(to top, #b66666, #b57f7f);
+}
+
+.answer-select{
+  background: linear-gradient(to top, #554949, #1b1a1a) ;
+  color: white;
+}
+
+.correct{
+  background: green;
+}
+
 .question{
   text-align: left;
 }

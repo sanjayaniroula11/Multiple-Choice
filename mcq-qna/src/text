@@ -1,9 +1,4 @@
-[
-  {
-    "question": "Guess the correct height of mt. Makalu.",
-    "choices": ["8465m", "8485m", "6725m", "None of the above"],
-    "correctAnswer": "8485"
-  },
+,
   {
     "question": "Which of the following animal has the longest lifespan",
     "choices": ["Tiger", "Bear", "Goat", "Horse"],
@@ -19,4 +14,3 @@
     "choices": ["Croatia", "Haiti", "Egypt", "None of the above"],
     "correctAnswer": "None of the above"
   }
-]
