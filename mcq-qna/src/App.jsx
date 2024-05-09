@@ -12,17 +12,21 @@ function App() {
   const [showScore, setShowScore] = useState(false)
 
   const nextQuestion = () => {
-    if (currQuestion < Resources.length - 1) {
+    if (currQuestion < Resources.length -1 ) {
       setCurrQuestion(currQuestion + 1);
-      setAnswer(0);
+      setAnswer('');
       checkScore()
+      
     } else {
+      checkScore();
       setShowScore(true)
+      
     }
   };
 
   const checkScore = () => {
-    if (answer === Resources[currQuestion].correctAnswer){
+    const correctAnswer = Resources[currQuestion].correctAnswer;
+    if (answer === correctAnswer){
       setScore(score + 1 )
     }
 
@@ -54,9 +58,13 @@ function App() {
                 return (
                   <li
                   key={indexOfOption}
-                    className={`answer-color ${answer == indexOfOption + 1 ? "correct" : null}`}
+                  className={`answer-color ${
+                    answer === option /* Changed to compare with choice */
+                      ? "correct"
+                      : null
+                  }`}
                     onClick={ () => {
-                      setAnswer(indexOfOption + 1);
+                      setAnswer(option);
                     }}
                   >
                     {option}

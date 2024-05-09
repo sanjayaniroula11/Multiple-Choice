@@ -2,7 +2,7 @@
   {
     "question": "Guess the correct height of mt. Makalu.",
     "choices": ["8465m", "8485m", "6725m", "None of the above"],
-    "correctAnswer": "8485"
+    "correctAnswer": "8485m"
   },
   {
     "question": "Which of the following animal has the longest lifespan",
@@ -16,7 +16,7 @@
   },
   {
     "question": "Which country is the part of asia?",
-    "choices": ["Croatia", "Haiti", "Egypt", "None of the above"],
-    "correctAnswer": "None of the above"
+    "choices": ["Croatia", "Haiti", "Egypt", "None"],
+    "correctAnswer": "None"
   }
 ]
