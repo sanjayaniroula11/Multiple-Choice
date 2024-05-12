@@ -5,6 +5,26 @@
     "correctAnswer": "8485m"
   },
   {
+    "question": "Who wrote the novel 'War and Peace'?",
+    "choices": ["Fyodor Dostoevsky", "Leo Tolstoy", "Jane Austen", "Charles Dickens"],
+    "correctAnswer": "Leo Tolstoy"
+  },
+  {
+    "question": "Which gas makes up the majority of the Earth's atmosphere?",
+    "choices": ["Nitrogen", "Oxygen", "Carbon dioxide", "Argon"],
+    "correctAnswer": "Nitrogen"
+  },
+  {
+    "question": "What is the chemical symbol for the element silver?",
+    "choices": ["Ag", "Au", "Pt", "Hg"],
+    "correctAnswer": "Ag"
+  },
+  {
+    "question": "Who is credited with discovering penicillin?",
+    "choices": ["Alexander Fleming", "Marie Curie", "Louis Pasteur", "Antonie van Leeuwenhoek"],
+    "correctAnswer": "Alexander Fleming"
+  },
+  {
     "question": "Which of the following animal has the longest lifespan",
     "choices": ["Tiger", "Bear", "Goat", "Horse"],
     "correctAnswer": "Horse"
@@ -59,5 +79,38 @@
     "question": "Who is known as the 'Father of Computers'?",
     "choices": ["Alan Turing", "Charles Babbage", "Ada Lovelace", "Steve Jobs"],
     "correctAnswer": "Charles Babbage"
-  }
+  },
+  
+    {
+      "question": "Who developed the theory of relativity?",
+      "choices": ["Isaac Newton", "Albert Einstein", "Stephen Hawking", "Niels Bohr"],
+      "correctAnswer": "Albert Einstein"
+    },
+    {
+      "question": "What is the chemical formula for ozone?",
+      "choices": ["O2", "O3", "CO2", "N2"],
+      "correctAnswer": "O3"
+    },
+    {
+      "question": "In which year did the Chernobyl nuclear disaster occur?",
+      "choices": ["1986", "1979", "1992", "2001"],
+      "correctAnswer": "1986"
+    },
+    {
+      "question": "Who painted the famous artwork 'The Starry Night'?",
+      "choices": ["Pablo Picasso", "Vincent van Gogh", "Leonardo da Vinci", "Claude Monet"],
+      "correctAnswer": "Vincent van Gogh"
+    },
+    {
+      "question": "What is the unit of electrical resistance?",
+      "choices": ["Ampere", "Ohm", "Watt", "Volt"],
+      "correctAnswer": "Ohm"
+    },
+    {
+      "question": "Which metal has the highest melting point?",
+      "choices": ["Iron", "Copper", "Tungsten", "Gold"],
+      "correctAnswer": "Tungsten"
+    }
+  
+  
 ]
