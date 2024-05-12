@@ -35,7 +35,9 @@ function App() {
     }
   };
 
-  const highlightAnswer = () => {
+
+  const optionClicked = (option) => {
+    setAnswer(option);
 
   };
 
@@ -59,13 +61,12 @@ function App() {
                   <li
                   key={indexOfOption}
                   className={`answer-color ${
-                    answer === option /* Changed to compare with choice */
-                      ? "correct"
-                      : null
+                    answer === option && option === Resources[currQuestion].correctAnswer ? "correct" : 
+                    answer === option && option !== Resources[currQuestion].correctAnswer ? "incorrect" : 
+                    ""
                   }`}
-                    onClick={ () => {
-                      setAnswer(option);
-                    }}
+                    onClick={()=>{ optionClicked (option) }}
+                    style={{cursor: answer == '' ? 'pointer' : 'none', pointerEvents: answer == '' ? 'auto' : 'none'}}
                   >
                     {option}
                   </li>

@@ -18,5 +18,46 @@
     "question": "Which country is the part of asia?",
     "choices": ["Croatia", "Haiti", "Egypt", "None"],
     "correctAnswer": "None"
+  },
+
+  {
+    "question": "What is the capital of Australia?",
+    "choices": ["Sydney", "Melbourne", "Canberra", "Brisbane"],
+    "correctAnswer": "Canberra"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "choices": ["Mars", "Venus", "Jupiter", "Mercury"],
+    "correctAnswer": "Mars"
+  },
+  {
+    "question": "Who wrote the play 'Romeo and Juliet'?",
+    "choices": [
+      "William Shakespeare",
+      "Charles Dickens",
+      "Jane Austen",
+      "Mark Twain"
+    ],
+    "correctAnswer": "William Shakespeare"
+  },
+  {
+    "question": "Which is the largest ocean in the world?",
+    "choices": [
+      "Atlantic Ocean",
+      "Indian Ocean",
+      "Arctic Ocean",
+      "Pacific Ocean"
+    ],
+    "correctAnswer": "Pacific Ocean"
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "choices": ["Au", "Ag", "Fe", "Cu"],
+    "correctAnswer": "Au"
+  },
+  {
+    "question": "Who is known as the 'Father of Computers'?",
+    "choices": ["Alan Turing", "Charles Babbage", "Ada Lovelace", "Steve Jobs"],
+    "correctAnswer": "Charles Babbage"
   }
 ]

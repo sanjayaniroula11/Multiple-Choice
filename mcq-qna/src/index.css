@@ -42,9 +42,9 @@ body{
   border-radius: 5px;
   cursor: pointer;
 }
-.answer-color:hover{
+/* .answer-color:hover{
   background: linear-gradient(to top, #b66666, #b57f7f);
-}
+} */
 
 .answer-select{
   background: linear-gradient(to top, #554949, #1b1a1a) ;
@@ -52,7 +52,7 @@ body{
 }
 
 .correct{
-  background: rgb(7, 7, 7);
+  background: rgb(33, 98, 7);
   color: white;
 }
 
